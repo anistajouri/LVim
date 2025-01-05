@@ -12,12 +12,12 @@ dashboard.section.header.val = {
   '                                                                       ',
   '                                                                       ',
   '                                                                       ',
-  '      ██╗███████╗███████╗███████╗██╗   ██╗██╗   ██╗██╗███╗   ███╗      ',
-  '      ██║██╔════╝██╔════╝╚══███╔╝╚██╗ ██╔╝██║   ██║██║████╗ ████║      ',
-  '      ██║█████╗  █████╗    ███╔╝  ╚████╔╝ ██║   ██║██║██╔████╔██║      ',
-  ' ██   ██║██╔══╝  ██╔══╝   ███╔╝    ╚██╔╝  ╚██╗ ██╔╝██║██║╚██╔╝██║      ',
-  ' ╚█████╔╝███████╗███████╗███████╗   ██║    ╚████╔╝ ██║██║ ╚═╝ ██║      ',
-  '  ╚════╝ ╚══════╝╚══════╝╚══════╝   ╚═╝     ╚═══╝  ╚═╝╚═╝     ╚═╝      ',
+  '      ██╗     ██╗   ██╗██╗███╗   ███╗                                 ',
+  '      ██║     ██║   ██║██║████╗ ████║                                 ',
+  '      ██║     ██║   ██║██║██╔████╔██║                                 ',
+  '      ██║     ██║   ██║██║██║╚██╔╝██║                                 ',
+  '      ███████╗╚██████╔╝██║██║ ╚═╝ ██║                                 ',
+  '      ╚══════╝ ╚═════╝ ╚═╝╚═╝     ╚═╝                                 ',
   '                                                                       ',
   '                                                                       ',
   '                                                                       ',
@@ -38,10 +38,10 @@ dashboard.section.buttons.val = {
     '󱝩  Recently used files',
     ':Telescope oldfiles theme=dropdown<CR>'
   ),
-  dashboard.button('q', '  Quit JeezyVim', ':qa<CR>'),
+  dashboard.button('q', '  Quit LVim', ':qa<CR>'),
 }
 
-dashboard.section.footer.val = 'Free Palestine'
+dashboard.section.footer.val = 'Devex ❤️'
 
 dashboard.section.footer.opts.hl = 'Type'
 dashboard.section.header.opts.hl = 'Include'
